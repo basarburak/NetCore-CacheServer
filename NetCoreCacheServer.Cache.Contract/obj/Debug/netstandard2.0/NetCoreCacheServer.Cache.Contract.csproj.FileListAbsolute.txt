@@ -1,0 +1,12 @@
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\bin\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.deps.json
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\bin\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.dll
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\bin\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.pdb
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\bin\Debug\netstandard2.0\NetCoreCacheServer.Core.dll
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\bin\Debug\netstandard2.0\NetCoreCacheServer.Core.pdb
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\obj\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.csprojResolveAssemblyReference.cache
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\obj\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.csproj.CoreCompileInputs.cache
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\obj\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.AssemblyInfoInputs.cache
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\obj\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.AssemblyInfo.cs
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\obj\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.csproj.CopyComplete
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\obj\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.dll
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Cache.Contract\obj\Debug\netstandard2.0\NetCoreCacheServer.Cache.Contract.pdb

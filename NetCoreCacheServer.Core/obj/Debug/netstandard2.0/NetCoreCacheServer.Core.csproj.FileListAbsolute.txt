@@ -1,0 +1,9 @@
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\obj\Debug\netstandard2.0\NetCoreCacheServer.Core.csproj.CoreCompileInputs.cache
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\obj\Debug\netstandard2.0\NetCoreCacheServer.Core.AssemblyInfoInputs.cache
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\obj\Debug\netstandard2.0\NetCoreCacheServer.Core.AssemblyInfo.cs
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\bin\Debug\netstandard2.0\NetCoreCacheServer.Core.deps.json
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\bin\Debug\netstandard2.0\NetCoreCacheServer.Core.dll
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\bin\Debug\netstandard2.0\NetCoreCacheServer.Core.pdb
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\obj\Debug\netstandard2.0\NetCoreCacheServer.Core.dll
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\obj\Debug\netstandard2.0\NetCoreCacheServer.Core.pdb
+C:\Users\bba\Documents\CoreProject\NetCoreCacheServer\NetCoreCacheServer.Core\obj\Debug\netstandard2.0\NetCoreCacheServer.Core.csprojResolveAssemblyReference.cache
