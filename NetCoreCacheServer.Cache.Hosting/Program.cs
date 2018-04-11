@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using NetCoreCacheServer.Core.Configration;
 
 namespace NetCoreCacheServer.Cache.Hosting
 {
@@ -20,6 +21,7 @@ namespace NetCoreCacheServer.Cache.Hosting
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseUrls(DevelopmentConfigration.CacheApiUrl)
                 .Build();
     }
 }

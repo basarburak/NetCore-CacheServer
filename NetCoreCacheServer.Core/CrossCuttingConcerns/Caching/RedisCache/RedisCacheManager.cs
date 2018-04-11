@@ -17,17 +17,18 @@ namespace NetCoreCacheServer.Core.CrossCuttingConcerns.Caching.RedisCache
             throw new NotImplementedException();
         }
 
-        public void Add(string key, object data)
+        public object Add(string key, object data)
         {
             var _data = JsonConvert.SerializeObject(data);
             var _dataByte = Encoding.UTF8.GetBytes(_data);
             _distributedCache.Set(key.ToString(), _dataByte);
+            return data;
         }
 
-        public T Get<T>(string key)
+        public object Get(string key)
         {
             var data = _distributedCache.GetString(key.ToString());
-            return JsonConvert.DeserializeObject<T>(data);
+            return JsonConvert.DeserializeObject<object>(data);
         }
 
         public bool IsAdd(string key)

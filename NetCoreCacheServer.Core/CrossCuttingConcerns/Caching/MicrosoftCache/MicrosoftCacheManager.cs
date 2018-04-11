@@ -17,15 +17,16 @@ namespace NetCoreCacheServer.Core.CrossCuttingConcerns.Caching.MicrosoftCache
             _cache.Set(key, data, date);
         }
 
-        public void Add(string key, object data)
+        public object Add(string key, object data)
         {
             var date = DateTimeOffset.Now + TimeSpan.FromDays(60);
             _cache.Set(key, data, date);
+            return data;
         }
 
-        public T Get<T>(string key)
+        public object Get(string key)
         {
-            return (T)_cache.Get(key);
+            return _cache.Get<object>(key);
         }
 
         public bool IsAdd(string key)

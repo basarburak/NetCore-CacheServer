@@ -1,4 +1,5 @@
 using NetCoreCacheServer.Core;
+using NetCoreCacheServer.Core.Configration;
 using NetCoreStack.Contracts;
 
 namespace NetCoreCacheServer.Cache.Contract.Abstract

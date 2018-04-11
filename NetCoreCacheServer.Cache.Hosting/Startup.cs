@@ -8,7 +8,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NetCoreCacheServer.Cache.Contract.Contract;
+using NetCoreCacheServer.Core;
+using NetCoreCacheServer.Core.Configration;
 using NetCoreCacheServer.Core.Extensions;
+using NetCoreStack.Proxy;
 
 namespace NetCoreCacheServer.Cache.Hosting
 {
@@ -26,7 +30,11 @@ namespace NetCoreCacheServer.Cache.Hosting
 
             services.AddMicrosoftCache();
 
-            //services.AddRedisCache();
+            // services.AddRedisCache(RedisConfigration.RedisServer, RedisConfigration.InstanceName);
+
+            services.StartBrowserSwaggerUI(DevelopmentConfigration.CacheApiUrl, DevelopmentConfigration.Browser.chrome);
+
+            services.AddSwaggerCore(ApiConfigration.CacheApiName, ApiConfigration.CacheApiVersion);
         }
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
@@ -36,6 +44,8 @@ namespace NetCoreCacheServer.Cache.Hosting
             }
 
             app.UseMvc();
+
+            app.UseSwaggerCore(ApiConfigration.CacheApiName);
         }
     }
 }

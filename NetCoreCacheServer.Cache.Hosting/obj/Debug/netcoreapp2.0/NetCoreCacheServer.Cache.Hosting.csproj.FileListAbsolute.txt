@@ -1,0 +1,15 @@
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.deps.json
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.runtimeconfig.json
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.runtimeconfig.dev.json
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.dll
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.pdb
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Contract.dll
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Core.dll
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Contract.pdb
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/bin/Debug/netcoreapp2.0/NetCoreCacheServer.Core.pdb
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/obj/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.csprojResolveAssemblyReference.cache
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/obj/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.csproj.CoreCompileInputs.cache
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/obj/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.AssemblyInfoInputs.cache
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/obj/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.AssemblyInfo.cs
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/obj/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.dll
+/Users/burakbasar/Documents/GitHub/NetCore-CacheServer/NetCoreCacheServer.Cache.Hosting/obj/Debug/netcoreapp2.0/NetCoreCacheServer.Cache.Hosting.pdb

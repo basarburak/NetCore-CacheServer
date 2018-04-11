@@ -8,6 +8,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NetCoreCacheServer.Cache.Contract.Contract;
+using NetCoreCacheServer.Core.Configration;
+using NetCoreStack.Proxy;
+using NetCoreCacheServer.Core.Extensions;
 
 namespace NetCoreCacheServer.Hosting
 {
@@ -24,6 +28,14 @@ namespace NetCoreCacheServer.Hosting
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddNetCoreProxy(Configuration, options =>
+             {
+                 options.Register<ICacheApi>();
+             });
+
+            services.AddSwaggerCore(ApiConfigration.HostingApiName, ApiConfigration.HostingApiVersion);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +47,8 @@ namespace NetCoreCacheServer.Hosting
             }
 
             app.UseMvc();
+
+            app.UseSwaggerCore(ApiConfigration.HostingApiName);
         }
     }
 }

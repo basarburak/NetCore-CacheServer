@@ -13,8 +13,14 @@ namespace NetCoreCacheServer.Core.Extensions
             services.AddScoped<ICacheManager, MicrosoftCacheManager>();
         }
 
-        public static void AddRedisCache(this IServiceCollection services)
+        public static void AddRedisCache(this IServiceCollection services, string redisServer, string instanceName)
         {
+            services.AddDistributedRedisCache(option =>
+              {
+                  option.Configuration = redisServer;
+                  option.InstanceName = instanceName;
+              });
+
             services.AddScoped<ICacheManager, RedisCacheManager>();
         }
     }
